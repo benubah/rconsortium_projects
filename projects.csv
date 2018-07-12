@@ -1,4 +1,4 @@
-Year, Quarter, Project,Type of Work Product, Primary Investigator, Email, URL, Amount(USD)
+Year, Quarter, Project,Type of Work Product, Primary Investigator, Email, URL, amount
 2018, Q1, Maintaining DBI,Package, Kirill Muller, krlmlr at mailbox.org,  http://dbi.r-dbi.org/, 26500
 2018, Q1, Ongoing infrastructural development for R on Windows and MacOS,Infrastructure, Jeroen Ooms, jeroenooms at gmail.com, ,62400
 2018, Q1, Developing Tools and Templates for Teaching Materials, Teaching, Francois Michonneau, , , 10000
