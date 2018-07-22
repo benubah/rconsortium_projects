@@ -11,7 +11,7 @@ Year,quarter,Project,WorkProduct, Primary Investigator, Email, URL,amount, statu
 2017, Q1, Conference Management System for R Consortium Sponsored Conferences,Infrastructure, Heather Turner, ht at heatherturner.net, ,19000,Ongoing
 2017, Q1, Continued Development of the R API for Distributed Computing,Package, Michael Lawrence, michafla at gene.com, ,15000,Ongoing
 2017, Q1, Establishing  DBI,Package, Kirill Muller, krlmlr at mailbox.org, ,26500,Ongoing
-2017, Q1, Forwards Workshops for Women and Girls,User-base Expansion, Dianne Cook, rowforwards at gmail.com, http://forwards.github.io, 25000,Ongoing
+2017, Q1, Forwards Workshops for Women and Girls,Diversity_UserExpansion, Dianne Cook, rowforwards at gmail.com, http://forwards.github.io, 25000,Ongoing
 2017, Q1, Joint Profiling of Native and R Code,Package, Kirill Muller, krlmlr at mailbox.org, ,11000,Ongoing
 2017, Q1, R-hub #2,Infrastructure, Gabor Csardi, csardi.gabor at gmail.com, https://github.com/r-hub, 89500,Ongoing
 2017, Q1, School of Data Material Development,Teaching, Heidi Seibold, heidi at schoolofdata.ch, , 11200,Ongoing
@@ -29,5 +29,5 @@ Year,quarter,Project,WorkProduct, Primary Investigator, Email, URL,amount, statu
 2016, Q1, Software Carpentry R Instructor Training,Teaching, John Blishak, ,http://software-carpentry.org/blog/2016/03/r-consortium-training.html, 10000,Completed
 2016, Q2, The R Documentation Task Force: The Next Generation R Documentation System,Infrastructure, Andrew Redd, andrew.redd@hsc.utah.edu, , 10000,Ongoing
 2016, Q2, Interactive data manipulation in mapview,Package,  Tim Appelhans, , , 9100,Completed
-2016, Q2, R-Ladies Alignment and Global Expansion,User-base Expansion, Gabriela de Queiroz, info@rladies.org, http://rladies.org, 10000,Completed
+2016, Q2, R-Ladies Alignment and Global Expansion,Diversity_UserExpansion, Gabriela de Queiroz, info@rladies.org, http://rladies.org, 10000,Completed
 2015, Q2, R-Hub,Infrastructure, Gabor Csardi, csardi.gabor at gmail.com, https://github.com/r-hub, 80000,Completed
