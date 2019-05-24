@@ -8,11 +8,11 @@ commit_csvs() {
   git config --global user.name "benubah"
   git config --global user.email "ben@rpowerlabs.org"
   git config --global push.default simple
-  git remote add upstream "https://benubah@github.com/${TRAVIS_REPO_SLUG}.git"
+  git remote add upstream "https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git"
   git fetch upstream 2>err.txt
 
 
-  cp -fvr $BASE_REPO/data/* data/
+  cp -fvr $BASE_REPO/data/* .
   git add rladies.csv
   git commit -a -m "#rstats ${TRAVIS_COMMIT_MESSAGE} (${TRAVIS_BUILD_NUMBER})"
   git status
