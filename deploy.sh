@@ -4,14 +4,11 @@ BASE_REPO=$PWD
 
 commit_csvs() {
   Rscript -e 'source("R/rladies.R")'
- 
-  
-  git init
 
   git config --global user.name "benubah"
   git config --global user.email "ben@rpowerlabs.org"
   git config --global push.default simple
-  git remote add upstream "https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git"
+  git remote add upstream "https://benubah@github.com/${TRAVIS_REPO_SLUG}.git"
   git fetch upstream 2>err.txt
 
 
