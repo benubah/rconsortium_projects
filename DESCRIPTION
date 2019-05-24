@@ -1,5 +1,5 @@
-Package: rconsortium_projects
-Type: Project
+Package: rconsortiumprojects
+Type: Package
 Title: A way to run R scripts automatically
 Version: 0.2.5
 Author: Ben C. Ubah [aut, cre]
@@ -7,5 +7,4 @@ Maintainer: Ben C. Ubah <ubah.ben22@gmail.com>
 Imports: rvest, tidyverse, jsonlite 
 Description: Run R scripts
 License: GPL-2
-BugReports: https://github.com/benubah/control/issues
-Built: R 3.4.4; ; 2018-11-01 12:10:34 UTC; windows
+LazyData: TRUE
