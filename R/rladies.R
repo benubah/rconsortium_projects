@@ -9,7 +9,7 @@ selectedgroups <- data.frame(all_rladies_groups["name"],all_rladies_groups["coun
 
 write.csv(selectedgroups, "data/rladies.csv")
   print("writing....")
-  print(selectedgroups)
+ 
   write.csv(selectedgroups, "rladies.csv")
 }
 
