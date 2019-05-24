@@ -8,6 +8,8 @@ selectedgroups <- data.frame(all_rladies_groups["name"],all_rladies_groups["coun
 #all_rladies_groups %>% select("name","link","city", "localized_country_name", "timezone")
 
 write.csv(selectedgroups, "data/rladies.csv")
+  print("writing....")
+  write.csv(selectedgroups, "rladies.csv")
 }
 
 get_rladies()
