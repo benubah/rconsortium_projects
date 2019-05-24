@@ -4,7 +4,7 @@ Title: A way to run R scripts automatically
 Version: 0.2.5
 Author: Ben C. Ubah [aut, cre]
 Maintainer: Ben C. Ubah <ubah.ben22@gmail.com>
-Imports: rvest, tidyverse, jsonlite 
+Depends: jsonlite 
 Description: Run R scripts
 License: GPL-2
 LazyData: TRUE
