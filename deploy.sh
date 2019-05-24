@@ -5,7 +5,7 @@ BASE_REPO=$PWD
 commit_csvs() {
   Rscript -e 'source("R/rladies.R")'
  
-  cd ..; cd master
+  
   git init
 
   git config --global user.name "benubah"
