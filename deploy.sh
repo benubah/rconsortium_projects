@@ -12,7 +12,7 @@ commit_csvs() {
   git fetch upstream 2>err.txt
 
 
-  cp -fvr $BASE_REPO/data/* .
+  cp -fvr $BASE_REPO/data/
   git add rladies.csv
   git commit -a -m "#rstats ${TRAVIS_COMMIT_MESSAGE} (${TRAVIS_BUILD_NUMBER})"
   git status
