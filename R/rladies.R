@@ -1,4 +1,4 @@
-#library(jsonlite)
+library(jsonlite)
 library(meetupr)
 
 get_rladies <- function() {
@@ -8,8 +8,8 @@ get_rladies <- function() {
 
 #all_rladies_groups %>% select("name","link","city", "localized_country_name", "timezone")
   
-meetup_api_key <- Sys.getenv("MEETUP_KEY");
-all_rladies_groups <- find_groups(text = "r-ladies", api_key = meetup_api_key)
+meetup_api_key <- Sys.getenv("MEETUP_KEY")
+all_rladies_groups <- meetupr::find_groups(text = "r-ladies", api_key = meetup_api_key)
 
 # Cleanup
 rladies_groups <- all_rladies_groups[grep(pattern = "rladies|r-ladies|r ladies", 
