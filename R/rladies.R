@@ -1,5 +1,5 @@
 library(jsonlite)
-#library(meetupr)
+library(meetupr)
 
 get_rladies <- function() {
 #to use a signed url for r-ladies
