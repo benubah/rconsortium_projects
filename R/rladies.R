@@ -14,10 +14,11 @@ all_rladies_groups <- meetupr::find_groups(text = "r-ladies", api_key = meetup_a
 # Cleanup
 rladies_groups <- all_rladies_groups[grep(pattern = "rladies|r-ladies|r ladies",  x = all_rladies_groups$name, ignore.case = TRUE), ]
   
-print(rladies_groups)
-  print(meetup_api_key)
+ # print(rladies_groups)
+ # print(meetup_api_key)
+  rladies_groups <- as.matrix(rladies_groups)
   
-write.csv(as.data.frame(rladies_groups), "data/rladies.csv")
+write.csv(rladies_groups, "data/rladies.csv")
    #write.csv(selectedgroups, "rladies.csv")
 }
 
