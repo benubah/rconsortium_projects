@@ -17,7 +17,7 @@ rladies_groups <- all_rladies_groups[grep(pattern = "rladies|r-ladies|r ladies",
 print(rladies_groups)
   print(meetup_api_key)
   
-#write.csv(selectedgroups, "data/rladies.csv")
+write.csv(as.data.frame(rladies_groups), "data/rladies.csv")
    #write.csv(selectedgroups, "rladies.csv")
 }
 
