@@ -1,6 +1,27 @@
 #library(jsonlite)
 library(meetupr)
 
+
+library(httr)
+
+# 1. Find OAuth settings for Meetup:
+#    https://www.meetup.com/meetup_api/auth/
+meetup <- oauth_endpoint(
+  authorize = 'https://secure.meetup.com/oauth2/authorize',
+  access    = 'https://secure.meetup.com/oauth2/access'
+)
+
+# 2. Register an application at https://secure.meetup.com/meetup_api/oauth_consumers
+#    Make sure to register http://localhost:1410/ as the "redirect uri".
+#    (the trailing slash is important!)
+app <- oauth_app("meetup",
+                 Sys.getenv("mkey"),
+                 Sys.getenv("msecret"))
+
+# 3. Get OAuth credentials
+token <- oauth2.0_token(meetup, app)
+print(token)
+
 get_rladies <- function() {
 #to use a signed url for r-ladies
 #all_rladies_groups <- fromJSON("https://api.meetup.com/find/groups?text=r-ladies&sig_id=262147300&radius=global&sig=f9ca12a1587739f82b5df22fe88f913f91254941");
