@@ -4,6 +4,7 @@ warnings_are_errors: false
 r_packages:
    - curl
    - jsonlite
+   - httr
 
 r_github_packages: rladies/meetupr
 
