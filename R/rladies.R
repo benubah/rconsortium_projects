@@ -20,6 +20,7 @@ app <- oauth_app("meetup",
 
 # 3. Get OAuth credentials
 token <- oauth2.0_token(meetup, app)
+
 print(token)
 
 get_rladies <- function() {
