@@ -17,7 +17,7 @@ meetup <- oauth_endpoint(
 app <- oauth_app("meetup",
                  Sys.getenv("mkey"),
                  Sys.getenv("msecret"))
-
+options(httr_oob_default=TRUE)
 # 3. Get OAuth credentials
 token <- oauth2.0_token(meetup, app)
 
